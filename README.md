@@ -6,6 +6,23 @@ BOIDE is a Streamlit-based decision intelligence dashboard built on the Olist e-
 
 See `PROJECT_STRUCTURE.md` for a folder-by-folder map of the repository.
 
+## Dataset
+
+Sample datasets (`customers.csv`, `orders.csv`) are included for demonstration.
+
+For full-scale testing, users can replace these files with larger business datasets following the same schema.
+## Main Datasets Used
+
+| Dataset | Purpose |
+| `olist_orders_dataset.csv` | Order details, timestamps, and delivery status |
+| `olist_order_payments_dataset.csv` | Payment values, payment methods, and installments |
+| `olist_customers_dataset.csv` | Customer identifiers and location information |
+| `olist_order_items_dataset.csv` | Product-level order details, prices, and freight values |
+| `olist_products_dataset.csv` | Product metadata and category information |
+| `olist_order_reviews_dataset.csv` | Customer review scores and feedback analysis |
+| `olist_sellers_dataset.csv` | Seller details and seller locations |
+| `product_category_name_translation.csv` | Translation of product categories into English |
+
 ## Main Modules
 
 - `app.py`: Streamlit entrypoint and landing page
