@@ -14,6 +14,7 @@ For full-scale testing, users can replace these files with larger business datas
 ## Main Datasets Used
 
 | Dataset | Purpose |
+|----------|----------|
 | `olist_orders_dataset.csv` | Order details, timestamps, and delivery status |
 | `olist_order_payments_dataset.csv` | Payment values, payment methods, and installments |
 | `olist_customers_dataset.csv` | Customer identifiers and location information |
@@ -22,6 +23,19 @@ For full-scale testing, users can replace these files with larger business datas
 | `olist_order_reviews_dataset.csv` | Customer review scores and feedback analysis |
 | `olist_sellers_dataset.csv` | Seller details and seller locations |
 | `product_category_name_translation.csv` | Translation of product categories into English |
+
+## Technologies Used
+
+- Python
+- Streamlit
+- Pandas
+- NumPy
+- Scikit-learn
+- Plotly
+- Matplotlib
+- ARIMA
+- K-Means Clustering
+- Silhouette Score
 
 ## Main Modules
 
@@ -33,6 +47,23 @@ For full-scale testing, users can replace these files with larger business datas
 - `tests/`: End-to-end, unit, and integration tests
 - `output/`: Generated reports and presentations
 - `uml/`: Project diagrams
+
+## Features
+
+- Sales forecasting using ARIMA
+- Customer segmentation using K-Means clustering
+- Anomaly detection for business insights
+- Rule-based AI recommendation engine
+- Interactive Streamlit dashboard
+- Exportable reports and presentations
+- Data preview and analytics visualization
+
+## Methodologies Used
+
+- ARIMA for time-series forecasting
+- K-Means clustering for customer segmentation
+- Silhouette Score for optimal cluster evaluation
+- Rule-based AI engine for business recommendations
 
 ## Run Locally
 
@@ -54,7 +85,14 @@ streamlit run app.py
 ```powershell
 python tests\test_boide.py
 ```
+## Future Improvements
 
+- Real-time business analytics integration
+- Advanced ML forecasting models
+- NLP-based customer review analysis
+- Cloud deployment support
+- Automated report scheduling
+  
 ## Notes
 
 - The app expects the Olist CSV files to remain inside `data/`.
